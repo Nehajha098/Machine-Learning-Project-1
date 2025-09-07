@@ -1,5 +1,53 @@
-**Project Overview**
+# Hobby Hours Forecaster for Hackathons 🎯
 
-This project aims to build a machine learning model that predicts a student's weekly coding hours. The goal is to help hackathon organizers create fair and balanced teams by estimating the coding effort each student can contribute.
+##  Project Overview
+This project predicts students’ **weekly hobby/coding hours**, helping hackathon organizers build balanced teams by estimating coding effort.
 
-The model is built using a dataset collected from SNU students through a Google Form survey.
+Built using survey responses from SNU students via a Google Form, the model leverages ML techniques like Random Forest and Gradient Boosting.
+
+---
+
+##  Steps Implemented
+1. **Data Cleaning & Processing**  
+2. **Encoding Categorical Features**  
+3. **Train-Test Split**  
+4. **Model Training & Hyperparameter Tuning** (Random Forest & Gradient Boosting)  
+5. **Feature Importance Analysis**  
+6. **Model Comparison & Ensemble**  
+7. **Model Saving & Prediction on New Data**
+
+---
+
+##  Evaluation Results
+
+- **Random Forest (Tuned)**  
+  -  MAE: ~9.3  
+  -  RMSE: ~11.15  
+  -  R²: ~0.11  
+
+- **Gradient Boosting (Tuned)**  
+  -  MAE: ~9.7  
+  -  RMSE: ~11.95  
+  -  R²: ~–0.02  
+
+- **Ensemble (RF + GB)**  
+  -  MAE: ~9.5  
+  -  RMSE: ~11.4  
+  -  R²: ~0.07  
+
+**Conclusion:** Random Forest emerged as the best performer for this dataset.
+
+---
+
+##  How to Run
+
+```bash
+# Clone project
+git clone https://github.com/Nehajha098/Machine-Learning-Project-1.git
+cd Machine-Learning-Project-1
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the prediction demo
+python scripts/step7_model_save_predict.py

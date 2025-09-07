@@ -36,6 +36,31 @@ Built using survey responses from SNU students via a Google Form, the model leve
   -  R²: ~0.07  
 
 **Conclusion:** Random Forest emerged as the best performer for this dataset.
+Team Plan – Coding Hours Forecaster
+
+Team Members:
+
+Neha Jha
+
+Repository setup & GitHub management
+
+Documentation (README, requirements.txt)
+
+Project coordination
+
+Rumana Kar
+
+Data cleaning & preprocessing
+
+Feature encoding & train-test split
+
+Model training (Random Forest, Gradient Boosting) with hyperparameter tuning
+
+Feature importance visualization
+
+Ensemble model comparison
+
+Model saving & prediction demo
 
 ---
 
